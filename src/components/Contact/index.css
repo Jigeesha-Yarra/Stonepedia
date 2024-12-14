@@ -1,0 +1,94 @@
+/* Background Styling */
+.contact-bg {
+    background-color: transparent;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Styling */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #90929b;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 150px;
+  }
+  
+  /* Icons Container Styling */
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .icon-bg {
+    background-color: #eaeaea;
+    padding: 12px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .icon-bg:hover {
+    background-color: #007bff;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .icon-bg:hover .icon {
+    color: #fff;
+  }
+  
+  /* Contact Sections Styling */
+  .contact-sections {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  /* Left Section Styling */
+  .contact-left,
+  .contact-right {
+    width: 48%;
+    text-align: left;
+  }
+  
+  .contact-left h1,
+  .contact-right h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Info Styling */
+  .contact-info {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .contact-info .contact-text {
+    margin-left: 10px;
+  }
+  
+  
