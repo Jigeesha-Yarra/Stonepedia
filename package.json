@@ -2,7 +2,7 @@
   "name": "stonepedia-homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Jigeesha-Yarra.github.io/Stonepedia",
+  "homepage": "https://Jigeesha-Yarra.github.io/Stonepedia-Assignment",
   "dependencies": {
     "cra-template": "1.2.0",
     "font-awesome": "^4.7.0",
